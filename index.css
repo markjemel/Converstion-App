@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: white;
+  padding-top: 1rem;
+}
+
+.converter {
+  max-width: 550px;
+  margin: 0 auto;
+  background: #F4F4F4;
+  padding-bottom: 36px;
+}
+
+/* Purple header */
+.converter__header {
+  background: #6943ff;
+  height: auto;
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.converter__title {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: -0.84px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.converter__input {
+  margin-top: 30px;
+  width: 117px;
+  height: 83px;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  background: transparent;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 58px;
+  font-weight: 800;
+  text-align: center;
+  outline: none;
+  -moz-appearance: textfield;
+}
+
+.converter__input::-webkit-outer-spin-button,
+.converter__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.converter__input:focus {
+  border-color: #ffffff;
+}
+
+.converter__button {
+  margin-top: 25px;
+  padding: 0.5rem 1.25rem;
+  width: auto;
+  height: auto;
+  border: none;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #3d3d3d;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.converter__button:hover {
+  background: #f0ecff;
+}
+
+/* Result cards */
+.converter__results {
+  padding: 36px 25px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 4.681px 0 0 0;
+  height: 108.573px;
+  padding-top: 31px;
+  text-align: center;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #5a537b;
+}
+
+.card__text {
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #353535;
+}
